@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Togegther we're better</title>
-		<link rel="stylesheet" type="text/css" href="css/form.css" media="all">
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="all">
 
 	</head>
 	<body id="main_body" >
@@ -30,28 +30,30 @@
 							<label for "password">What is your password?</label>
 							<input type="password" id="password" name="password">
 						</li>
-						<li>
-								<label for "address">Address:</label>
-								<input type="text" id="address" name="address">
-						</li>
             <li>
                 <label for "gender">Gender:</label>
-                <input type="radio" id="gender" name="gender">
-								<select id="gender" name="gender">
-									<option value="male">Male</option>
-									<option value="female">Female</option>
-									<option value="none">Prefer Not to Answer/Other</option>
-								</select>
+									<input type="radio" id="female" name="gender" value="female">
+									<label for="female">Female</label><br>
+
+									<input type="radio" id="male" name="gender" value="male"
+									<label for="male">Male</label><br>
+
+									<input type="radio" id="other" name="gender" value="other">
+								  <label for="other">Other</label><br>
+
             </li>
             <li>
                 <label for "hear">How did you hear about us:</label>
-                <input type="dropdown" id="hear" name="hear">
 								<select id="hear" name="hear">
 									<option value="google">Google Search</option>
 									<option value="friend">Friend or Family</option>
 									<option value="reroute">Another Website</option>
 								</select>
             </li>
+						<li>
+								<label for "comments">Comments:</label>
+								<input type="text" id="comments" name="comments">
+						</li>
           </ul>
         </fieldset>
         <input type="submit" value="submit">

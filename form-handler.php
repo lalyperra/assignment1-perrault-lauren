@@ -11,15 +11,14 @@
       $name =         $_POST['name'];
   		$email =        $_POST['email'];
       $phone =        $_POST['phone'];
-      $address =      $_POST['comments'];
-      $favoriteshow = $_POST['gender'];
+      $comments =     $_POST['comments'];
+      $gender = 			$_POST['gender'];
       $password =     $_POST['password'];
 			$hear =					$_POST['hear'];
 
       if($password == "password1234" || $password =="mothersmaidenname"){
 
       echo "<h1>Your Information</h1>";
-      echo "<h2>Main Information</h1>";
 
       echo "<ul class='information-list'>";
 
@@ -43,8 +42,8 @@
 			if($gender=="male"){
 				echo "<p>male</p>";
 			}
-    	if($gender== "none"){
-        echo "<p>You chose not to specify or your option was not available</p>";
+    	if($gender== "other"){
+        echo "<p>Other</p>";
 			}
 
 			//show drop down option selected
@@ -61,11 +60,6 @@
 			}
 			echo "<p></p>"
 
-	      if(!empty($birthday)){
-	        $birthday = strtotime($bithday);
-	        $birthday = date("F d, Y", $birthday);
-	        echo "<li><span class='label'>Happy Birthday!!</span> $birthday</li>";
-	      }
     ?>
 
 
