@@ -17,10 +17,8 @@
 			$hear =					$_POST['hear'];
 
       if($password == "password1234" || $password =="mothersmaidenname"){
-
-      echo "<h1>Your Information</h1>";
-
-      echo "<ul class='information-list'>";
+      		echo "<h1>Your Information</h1>";
+					echo "<ul class='information-list'>";
 
       if(!empty($name)){
         echo "<li><span class='label'>Name:</span> $name</li>";
@@ -58,7 +56,6 @@
 			if($hearr== "reroute"){
 				echo "<p>You came from another great website</p>";
 			}
-			echo "<p></p>"
 
     ?>
 
