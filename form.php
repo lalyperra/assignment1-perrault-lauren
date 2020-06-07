@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Togegther we're better</title>
+		<title>Together we're better</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css" media="all">
 
 	</head>
